@@ -5,7 +5,7 @@ export const Sample = () => {
       <h1 className="text-red-200">Sample</h1>
       <ul>
         {fruits.map((fruit) => (
-          <li>{fruit}</li>
+          <li key={fruit}>{fruit}</li>
         ))}
       </ul>
     </div>
